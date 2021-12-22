@@ -8,25 +8,27 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.material.button.MaterialButton;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView display;
-    private Button buttonSeven;
-    private Button buttonEight;
-    private Button buttonNine;
-    private Button buttonMultiplication;
-    private Button buttonFour;
-    private Button buttonFive;
-    private Button buttonSix;
-    private Button buttonDivision;
-    private Button buttonThree;
-    private Button buttonTwo;
-    private Button buttonOne;
-    private Button buttonAddition;
-    private Button buttonClear;
-    private Button buttonZero;
-    private Button buttonSubstraction;
-    private Button buttonResult;
+    private MaterialButton buttonSeven;
+    private MaterialButton buttonEight;
+    private MaterialButton buttonNine;
+    private MaterialButton buttonMultiplication;
+    private MaterialButton buttonFour;
+    private MaterialButton buttonFive;
+    private MaterialButton buttonSix;
+    private MaterialButton buttonDivision;
+    private MaterialButton buttonThree;
+    private MaterialButton buttonTwo;
+    private MaterialButton buttonOne;
+    private MaterialButton buttonAddition;
+    private MaterialButton buttonClear;
+    private MaterialButton buttonZero;
+    private MaterialButton buttonSubstraction;
+    private MaterialButton buttonResult;
 
     public static final String DISPLAYVALUE = "DISPLAYVALUE";
 
@@ -39,19 +41,18 @@ public class MainActivity extends AppCompatActivity {
 
         display = findViewById(R.id.display);
 
-        if (savedInstanceState != null && savedInstanceState.containsKey(DISPLAYVALUE))
-        {
+        if (savedInstanceState != null && savedInstanceState.containsKey(DISPLAYVALUE)) {
             displayValue = savedInstanceState.getInt(DISPLAYVALUE);
         }
 
         display.setText(String.valueOf(displayValue));
         buttonSeven = findViewById(R.id.button_seven);
         buttonSeven.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            display.setText(String.valueOf(displayValue) + 7);
-        }
-    });
+            @Override
+            public void onClick(View view) {
+                display.setText(String.valueOf(displayValue) + 7);
+            }
+        });
 
         buttonEight = findViewById(R.id.button_eight);
         buttonEight.setOnClickListener(new View.OnClickListener() {
