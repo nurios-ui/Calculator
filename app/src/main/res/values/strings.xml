@@ -1,19 +1,19 @@
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="button_1">1</string>
-    <string name="button_7">7</string>
-    <string name="button_8">8</string>
-    <string name="button_9">9</string>
-    <string name="button_4">4</string>
-    <string name="button_5">5</string>
-    <string name="button_6">6</string>
-    <string name="button_2">2</string>
-    <string name="button_3">3</string>
-    <string name="button_c">c</string>
-    <string name="button_0">0</string>
-    <string name="button_addition">+</string>
-    <string name="button_multiplication">*</string>
-    <string name="button_division">/</string>
-    <string name="button_substraction">-</string>
-    <string name="button_result">=</string>
+    <string name="button_1" translatable="false">1</string>
+    <string name="button_7" translatable="false">7</string>
+    <string name="button_8" translatable="false">8</string>
+    <string name="button_9" translatable="false">9</string>
+    <string name="button_4" translatable="false">4</string>
+    <string name="button_5" translatable="false">5</string>
+    <string name="button_6" translatable="false">6</string>
+    <string name="button_2" translatable="false">2</string>
+    <string name="button_3" translatable="false">3</string>
+    <string name="button_c" translatable="false">c</string>
+    <string name="button_0" translatable="false">0</string>
+    <string name="button_addition" translatable="false">+</string>
+    <string name="button_multiplication" translatable="false">*</string>
+    <string name="button_division" translatable="false">/</string>
+    <string name="button_substraction" translatable="false">-</string>
+    <string name="button_result" translatable="false">=</string>
 </resources>
