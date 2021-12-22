@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalcNumButtonStyle">
+        <item name="android:backgroundTint">@color/button_color</item>
+        <item name="android:layout_margin">@dimen/culc_button_margin</item>
+        <item name="android:layout_width">@dimen/culc_button_width</item>
+        <item name="android:layout_height">@dimen/culc_button_heigh</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="rippleColor">@color/black</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeWidth">3dp</item>
+    </style>
+
+    <style name="CalcSignButtonStyle">
+        <item name="android:backgroundTint">@color/purple_200</item>
+        <item name="android:layout_margin">@dimen/culc_button_margin</item>
+        <item name="android:layout_width">@dimen/culc_button_width</item>
+        <item name="android:layout_height">@dimen/culc_button_heigh</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="rippleColor">@color/black</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeWidth">3dp</item>
+    </style>
+</resources>

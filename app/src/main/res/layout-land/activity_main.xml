@@ -19,9 +19,19 @@
     <TableRow>
 
         <com.google.android.material.button.MaterialButton
-        style="@style/CalcNumButtonStyle"
-        android:id="@+id/button_seven"
-        android:text="@string/button_7" />
+            style="@style/CalcNumButtonStyle"
+            android:id="@+id/button_five"
+            android:text="@string/button_5" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalcNumButtonStyle"
+            android:id="@+id/button_six"
+            android:text="@string/button_6" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalcNumButtonStyle"
+            android:id="@+id/button_seven"
+            android:text="@string/button_7" />
 
         <com.google.android.material.button.MaterialButton
             style="@style/CalcNumButtonStyle"
@@ -33,38 +43,14 @@
             android:id="@+id/button_nine"
             android:text="@string/button_9" />
 
-        <com.google.android.material.button.MaterialButton
-            style="@style/CalcSignButtonStyle"
-            android:id="@+id/button_multiplication"
-            android:text="@string/button_multiplication" />
-
     </TableRow>
 
     <TableRow>
 
         <com.google.android.material.button.MaterialButton
             style="@style/CalcNumButtonStyle"
-            android:id="@+id/button_four"
-            android:text="@string/button_4" />
-
-        <com.google.android.material.button.MaterialButton
-            style="@style/CalcNumButtonStyle"
-            android:id="@+id/button_five"
-            android:text="@string/button_5" />
-
-        <com.google.android.material.button.MaterialButton
-            style="@style/CalcNumButtonStyle"
-            android:id="@+id/button_six"
-            android:text="@string/button_6" />
-
-        <com.google.android.material.button.MaterialButton
-            style="@style/CalcSignButtonStyle"
-            android:id="@+id/button_division"
-            android:text="@string/button_division" />
-
-    </TableRow>
-
-    <TableRow>
+            android:id="@+id/button_zero"
+            android:text="@string/button_0" />
 
         <com.google.android.material.button.MaterialButton
             style="@style/CalcNumButtonStyle"
@@ -82,9 +68,9 @@
             android:text="@string/button_3" />
 
         <com.google.android.material.button.MaterialButton
-            style="@style/CalcSignButtonStyle"
-            android:id="@+id/button_addition"
-            android:text="@string/button_addition" />
+            style="@style/CalcNumButtonStyle"
+            android:id="@+id/button_four"
+            android:text="@string/button_4" />
 
     </TableRow>
 
@@ -96,9 +82,19 @@
             android:text="@string/button_c" />
 
         <com.google.android.material.button.MaterialButton
-            style="@style/CalcNumButtonStyle"
-            android:id="@+id/button_zero"
-            android:text="@string/button_0" />
+            style="@style/CalcSignButtonStyle"
+            android:id="@+id/button_division"
+            android:text="@string/button_division" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalcSignButtonStyle"
+            android:id="@+id/button_multiplication"
+            android:text="@string/button_multiplication" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/CalcSignButtonStyle"
+            android:id="@+id/button_addition"
+            android:text="@string/button_addition" />
 
         <com.google.android.material.button.MaterialButton
             style="@style/CalcSignButtonStyle"
